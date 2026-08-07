@@ -1,5 +1,8 @@
 # Laravel SaaS Blueprint
 
+[![Release](https://img.shields.io/github/v/release/asllanmaciel/laravel-saas-blueprint?display_name=tag&sort=semver)](https://github.com/asllanmaciel/laravel-saas-blueprint/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-0f766e.svg)](LICENSE)
+
 Um mapa arquitetural independente de fornecedor para planejar SaaS multi-tenant em Laravel sem transformar o primeiro release em um monólito impossível de operar.
 
 Este projeto é documentação comunitária. Ele não contém código, regras de negócio ou infraestrutura de produtos comerciais.
@@ -49,7 +52,9 @@ Ele não obriga banco por tenant, Kubernetes, microserviços ou um provedor espe
 
 ## Contribuindo
 
-Proponha melhorias por issue ou pull request. Decisões devem explicar contexto, alternativa e trade-off; evite receitas universais.
+Proponha melhorias por issue ou pull request. Decisões devem explicar contexto, alternativa e trade-off; evite receitas universais. Antes de participar, leia o [guia de contribuição](CONTRIBUTING.md) e o [código de conduta](CODE_OF_CONDUCT.md).
+
+Para relatar conteúdo que possa incentivar uma prática insegura, siga a [política de segurança](.github/SECURITY.md) e não publique dados de sistemas reais.
 
 ## Licença
 
