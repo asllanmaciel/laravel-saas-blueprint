@@ -56,6 +56,9 @@ Proponha melhorias por issue ou pull request. Decisões devem explicar contexto,
 
 Para relatar conteúdo que possa incentivar uma prática insegura, siga a [política de segurança](.github/SECURITY.md) e não publique dados de sistemas reais.
 
+- [Escolha uma tarefa para primeira contribuição](https://github.com/asllanmaciel/laravel-saas-blueprint/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
+- [Veja todas as tarefas que precisam de ajuda](https://github.com/asllanmaciel/laravel-saas-blueprint/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22help%20wanted%22)
+
 ## Licença
 
 [MIT](LICENSE).
