@@ -1,0 +1,38 @@
+name: Problema na documentação
+description: Relate conteúdo incorreto, incompleto ou difícil de aplicar.
+title: "[Docs]: "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options:
+        - Arquitetura
+        - Tenancy
+        - Segurança
+        - Operação
+        - Checklist de MVP
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      description: Explique o cenário, o trecho afetado e por que ele pode induzir a uma decisão ruim.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Correção sugerida
+      description: Se possível, proponha uma redação ou abordagem alternativa e seus trade-offs.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmações
+      options:
+        - label: Não incluí dados de clientes ou detalhes de sistemas privados.
+          required: true
+        - label: Procurei por uma issue semelhante antes de abrir esta.
+          required: true

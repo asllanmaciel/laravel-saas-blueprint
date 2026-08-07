@@ -1,0 +1,22 @@
+name: Nova seção ou melhoria
+description: Sugira uma decisão arquitetural, checklist ou cenário adicional.
+title: "[Sugestão]: "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Qual problema isso ajuda a resolver?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta e trade-offs
+      description: Explique onde a abordagem funciona, suas limitações e possíveis alternativas.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Referências
+      description: Adicione documentação oficial, estudos ou experiências públicas relacionadas.
