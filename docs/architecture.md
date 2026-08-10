@@ -23,6 +23,8 @@ O contexto mínimo normalmente inclui:
 
 Para muitos MVPs, banco compartilhado é suficiente se constraints, policies, testes e escopos impedirem consultas sem tenant.
 
+Antes de escolher, use a [matriz de decisão para isolamento de tenants](tenant-isolation-matrix.md) para comparar custo operacional, restore, observabilidade, noisy neighbor, riscos e gatilhos de migração.
+
 ## Contexto em processos assíncronos
 
 Jobs devem carregar o identificador do tenant, reconstruir o contexto no worker e rejeitar tenants suspensos. Nunca dependa da sessão HTTP original.
