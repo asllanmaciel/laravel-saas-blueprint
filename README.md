@@ -42,6 +42,7 @@ flowchart TB
 ## Guias
 
 - [Arquitetura e decisões de tenancy](docs/architecture.md)
+- [Matriz de decisão para isolamento de tenants](docs/tenant-isolation-matrix.md)
 - [Segurança e isolamento](docs/security.md)
 - [Operação, deploy e observabilidade](docs/operations.md)
 - [Checklist de MVP](docs/mvp-checklist.md)
