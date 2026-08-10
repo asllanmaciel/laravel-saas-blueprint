@@ -113,7 +113,7 @@ O ganho de isolamento troca complexidade de aplicação por complexidade operaci
 
 ### Isolamento e impacto de falha
 
-Pergunte qual é o pior cenário real se uma query, migration ou operação administrativa estiver errada. Quanto maior o impacto aceitável por tenant, mais forte deve ser o limite técnico e operacional.
+Pergunte qual é o pior cenário real se uma query, migration ou operação administrativa estiver errada. Quanto maior o impacto potencial e menor a tolerância a vazamento ou indisponibilidade, mais forte deve ser o limite técnico e operacional.
 
 ### Backup e restore
 
