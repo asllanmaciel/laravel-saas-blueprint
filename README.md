@@ -44,7 +44,10 @@ flowchart TB
 - [Arquitetura e decisões de tenancy](docs/architecture.md)
 - [Matriz de decisão para isolamento de tenants](docs/tenant-isolation-matrix.md)
 - [Segurança e isolamento](docs/security.md)
-- [Operação, deploy e observabilidade](docs/operations.md)
+- [Billing adapters e entitlements](docs/billing-adapters.md)
+- [Jobs, webhooks e idempotência](docs/jobs-and-webhooks.md)
+- [Observabilidade multi-tenant](docs/observability.md)
+- [Operação e deploy](docs/operations.md)
 - [Checklist de MVP](docs/mvp-checklist.md)
 
 ## O que este blueprint não prescreve
