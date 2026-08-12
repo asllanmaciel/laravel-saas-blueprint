@@ -10,6 +10,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 
 - Security policy for responsible vulnerability reporting.
 - Changelog to track meaningful documentation and architecture updates.
+- Billing adapter and entitlement architecture guidance.
+- Jobs, webhooks and idempotency reliability guidance.
+- Tenant-aware observability guidance.
 
 ## [0.1.0] - 2026-08-12
 
