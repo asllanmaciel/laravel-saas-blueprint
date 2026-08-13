@@ -47,6 +47,7 @@ flowchart TB
 - [Billing adapters e entitlements](docs/billing-adapters.md)
 - [Jobs, webhooks e idempotência](docs/jobs-and-webhooks.md)
 - [Observabilidade multi-tenant](docs/observability.md)
+- [Backup e restore por tenant](docs/backup-and-tenant-restore.md)
 - [Operação e deploy](docs/operations.md)
 - [Checklist de MVP](docs/mvp-checklist.md)
 
