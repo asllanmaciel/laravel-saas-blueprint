@@ -7,12 +7,28 @@ Um mapa arquitetural independente de fornecedor para planejar SaaS multi-tenant 
 
 Este projeto é documentação comunitária. Ele não contém código, regras de negócio ou infraestrutura de produtos comerciais.
 
+> **Não é um starter kit Laravel.** O objetivo é ajudar a tomar decisões e definir limites arquiteturais antes de escolher pacotes, providers ou escrever a implementação específica do produto.
+
 ## Para quem serve
 
 - Pessoas desenhando seu primeiro SaaS em Laravel.
 - Times migrando um sistema single-tenant para multi-tenant.
 - Tech leads revisando isolamento, billing, filas e observabilidade.
 - Founders que precisam separar MVP de complexidade prematura.
+
+## Como usar este blueprint
+
+Uma sequência prática para um projeto novo ou uma revisão arquitetural:
+
+1. **Escolha o modelo de isolamento** em [tenant-isolation-matrix.md](docs/tenant-isolation-matrix.md).
+2. **Defina as fronteiras de segurança** em [security.md](docs/security.md), incluindo cache, storage, exports e operações administrativas.
+3. **Modele billing e entitlements** sem acoplar regras de negócio ao provider em [billing-adapters.md](docs/billing-adapters.md).
+4. **Defina idempotência e contexto de tenant** para jobs/webhooks em [jobs-and-webhooks.md](docs/jobs-and-webhooks.md).
+5. **Planeje diagnóstico e operação** em [observability.md](docs/observability.md) e [operations.md](docs/operations.md).
+6. **Valide recuperação de dados** com [backup-and-tenant-restore.md](docs/backup-and-tenant-restore.md).
+7. **Corte complexidade para o primeiro release** usando [mvp-checklist.md](docs/mvp-checklist.md).
+
+O resultado esperado não é “copiar a arquitetura inteira”, mas sair com decisões explícitas, trade-offs documentados e uma implementação mínima que preserve isolamento e operabilidade.
 
 ## Visão de arquitetura
 
@@ -54,6 +70,8 @@ flowchart TB
 ## O que este blueprint não prescreve
 
 Ele não obriga banco por tenant, Kubernetes, microserviços ou um provedor específico de pagamento. Essas decisões dependem do risco, escala, equipe e requisitos regulatórios do produto.
+
+Também não substitui documentação oficial do Laravel, requisitos regulatórios, threat modeling específico do produto ou testes reais de isolamento. O blueprint organiza decisões; a prova continua sendo da implementação.
 
 ## Contribuindo
 
