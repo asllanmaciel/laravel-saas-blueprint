@@ -14,6 +14,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 - Jobs, webhooks and idempotency reliability guidance.
 - Tenant-aware observability guidance.
 - Vendor-independent backup and restore playbook with restore-drill guidance for multi-tenant systems.
+- Practical README usage path connecting isolation, security, billing, jobs, observability, restore and MVP decisions.
+
+### Changed
+
+- README now makes explicit that the repository is an architectural decision blueprint rather than an executable Laravel starter kit.
 
 ## [0.1.0] - 2026-08-07
 
