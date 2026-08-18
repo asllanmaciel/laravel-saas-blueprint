@@ -85,3 +85,7 @@ Para relatar conteúdo que possa incentivar uma prática insegura, siga a [polí
 ## Licença
 
 [MIT](LICENSE).
+
+
+## Documentation
+- [Add a practical tenant-isolation testing checklist](docs/tenant-isolation-testing.md)
