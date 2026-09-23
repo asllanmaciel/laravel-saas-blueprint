@@ -15,10 +15,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 - Tenant-aware observability guidance.
 - Vendor-independent backup and restore playbook with restore-drill guidance for multi-tenant systems.
 - Practical README usage path connecting isolation, security, billing, jobs, observability, restore and MVP decisions.
+- Practical tenant-isolation testing playbook covering cross-tenant CRUD, route binding, fail-closed context, jobs, cache, storage and privileged impersonation paths.
 
 ### Changed
 
 - README now makes explicit that the repository is an architectural decision blueprint rather than an executable Laravel starter kit.
+- README usage path now links isolation design to an explicit testing gate before downstream SaaS architecture decisions.
 
 ## [0.1.0] - 2026-08-07
 
