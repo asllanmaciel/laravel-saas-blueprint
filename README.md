@@ -22,11 +22,12 @@ Uma sequência prática para um projeto novo ou uma revisão arquitetural:
 
 1. **Escolha o modelo de isolamento** em [tenant-isolation-matrix.md](docs/tenant-isolation-matrix.md).
 2. **Defina as fronteiras de segurança** em [security.md](docs/security.md), incluindo cache, storage, exports e operações administrativas.
-3. **Modele billing e entitlements** sem acoplar regras de negócio ao provider em [billing-adapters.md](docs/billing-adapters.md).
-4. **Defina idempotência e contexto de tenant** para jobs/webhooks em [jobs-and-webhooks.md](docs/jobs-and-webhooks.md).
-5. **Planeje diagnóstico e operação** em [observability.md](docs/observability.md) e [operations.md](docs/operations.md).
-6. **Valide recuperação de dados** com [backup-and-tenant-restore.md](docs/backup-and-tenant-restore.md).
-7. **Corte complexidade para o primeiro release** usando [mvp-checklist.md](docs/mvp-checklist.md).
+3. **Prove essas fronteiras em testes** com [tenant-isolation-testing.md](docs/tenant-isolation-testing.md), cobrindo casos permitidos, cross-tenant e fail-closed.
+4. **Modele billing e entitlements** sem acoplar regras de negócio ao provider em [billing-adapters.md](docs/billing-adapters.md).
+5. **Defina idempotência e contexto de tenant** para jobs/webhooks em [jobs-and-webhooks.md](docs/jobs-and-webhooks.md).
+6. **Planeje diagnóstico e operação** em [observability.md](docs/observability.md) e [operations.md](docs/operations.md).
+7. **Valide recuperação de dados** com [backup-and-tenant-restore.md](docs/backup-and-tenant-restore.md).
+8. **Corte complexidade para o primeiro release** usando [mvp-checklist.md](docs/mvp-checklist.md).
 
 O resultado esperado não é “copiar a arquitetura inteira”, mas sair com decisões explícitas, trade-offs documentados e uma implementação mínima que preserve isolamento e operabilidade.
 
@@ -60,6 +61,7 @@ flowchart TB
 - [Arquitetura e decisões de tenancy](docs/architecture.md)
 - [Matriz de decisão para isolamento de tenants](docs/tenant-isolation-matrix.md)
 - [Segurança e isolamento](docs/security.md)
+- [Testes práticos de isolamento entre tenants](docs/tenant-isolation-testing.md)
 - [Billing adapters e entitlements](docs/billing-adapters.md)
 - [Jobs, webhooks e idempotência](docs/jobs-and-webhooks.md)
 - [Observabilidade multi-tenant](docs/observability.md)
